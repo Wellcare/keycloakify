@@ -85,7 +85,7 @@ classDiagram
     }
 
     class KcContextExtensionPerPage {
-        +empty: {}
+        +empty: object
     }
 
     KcContextExtension --> ThemeName
