@@ -84,10 +84,6 @@ classDiagram
         +properties: Record~KcEnvName, string~
     }
 
-    class KcContextExtensionPerPage {
-        +empty: object
-    }
-
     KcContextExtension --> ThemeName
     KcContextExtension --> KcEnvName
 ```
